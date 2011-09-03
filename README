@@ -1,4 +1,19 @@
 PHP native 7 september 2011 :
-- Session
-- Template, tableless html ;) (div, css)
-- Secure login
+
+SESSION
+============================================
+http://www.php.net/manual/en/function.session-start.php
+http://www.php.net/manual/en/function.session-unset.php
+http://www.php.net/manual/en/function.session-destroy.php
+http://www.phpf1.com/tutorial/php-sessions.html
+
+http://php.net/manual/en/function.header.php
+http://id.php.net/manual/en/function.ob-start.php
+============================================
+
+
+DIV & CSS
+============================================
+http://www.devarticles.com/c/a/Web-Style-Sheets/DIV-Based-Layout-with-CSS/1/
+============================================
+
