@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	height:100%;	
+}
+
+body {
+	background-image:url(../images/footer.jpg);	
+	background-position:bottom;
+	background-repeat:repeat-x;
+	
+	padding:0px;
+	margin:0px;
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+h1 {
+	color: #99CC00;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #E6E8ED;
+}
+
+a {
+	color: #2D3954;
+	font-size: 11px;
+}
+a:hover {
+	color: #99CC00;
+}
+.err {
+	color: #FF9900;
+}
+
+.wrapper {
+	width:850px;
+	margin:auto;
+	padding:0px;
+	/* background-color:#ffffff; */
+	
+	border:0px solid #000;
+	/*border-top:1px solid #999;
+	border-bottom:1px solid #999;*/
+	
+	border-left:1px #000 solid;
+	border-right:1px #000 solid;
+	border-bottom:1px #000 solid;
+}
+
+.header {
+	border:0px #000 solid;	
+	height:150px;
+	background-image:url(../images/avto.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.main_content {
+	padding:10px;
+	min-height:480px;	
+	
+	/* for IE */
+	filter:alpha(opacity=60);
+	/* CSS3 standard */
+	opacity:1;
+}
+
+.footer {
+	clear:both;
+	padding-top:5px;
+	border-top: 1px dashed #E6E8ED;	
+	/* for IE */
+	filter:alpha(opacity=60);
+	/* CSS3 standard */
+	opacity:1;
+}
